@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="60dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="20dp"
+        android:text="myPetPic 시작할까요?"
+        android:textSize="20dp"/>
+
+    <CheckBox
+        android:id="@+id/ChkAgree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="시작함"/>
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="좋아하는 반려동물은?"
+        android:visibility="invisible"/>
+
+    <RadioGroup
+        android:id="@+id/Rgroup1"
+        android:layout_width="162dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible">
+
+        <RadioButton
+            android:id="@+id/RdoDog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="댕댕이(인절미)" />
+
+        <RadioButton
+            android:id="@+id/RdoCat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="야옹이(집사 구함)" />
+
+        <RadioButton
+            android:id="@+id/RdoMonkey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monkey(영화 진화의 시작 본 적 있어?" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/BtnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="선택 완료!"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/ImgPet"
+        android:layout_width="368dp"
+        android:layout_height="303dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible"/>
+
+</LinearLayout>
