@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "314679696648",
+    "firebase_url": "https://bowstringhero-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "bowstringhero",
+    "storage_bucket": "bowstringhero.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314679696648:android:58c3317a0d32126a7ba0bd",
+        "android_client_info": {
+          "package_name": "com.hj.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314679696648-nafkoqhics288dik1cb2nsfkhk9rk3js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhnWBwCQeQKSKM5ejeLw09Mn9xRuh5dYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314679696648-nafkoqhics288dik1cb2nsfkhk9rk3js.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

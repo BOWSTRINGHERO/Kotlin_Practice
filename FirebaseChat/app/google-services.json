@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "61351193311",
+    "project_id": "bowstringhero1",
+    "storage_bucket": "bowstringhero1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61351193311:android:468afe2c112b214187976a",
+        "android_client_info": {
+          "package_name": "com.hj.firebasechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61351193311-nqr3h7n4d108dlslr4vqml59cn05aog4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcM0lLOJdCr04oZ0AghSBNAL7jAD-GDWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61351193311-nqr3h7n4d108dlslr4vqml59cn05aog4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
